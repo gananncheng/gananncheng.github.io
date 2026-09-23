@@ -1,0 +1,31 @@
+h1 {
+    color: rgba(245, 198, 28, 0.916);
+    background-color: rgb(196, 80, 80);
+}
+
+p {
+    background-color: rgb(101, 232, 255);
+}
+
+button {
+    background-color: rgb(255, 0, 0);
+    color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+button.bg.blue {
+    background-color: rgb(25, 99, 237);
+    color: rgb(96, 202, 240);
+}
+
+button.bg.red {
+    background-color: rgb(51, 244, 12);
+    color: rgb(215, 66, 66);
+}

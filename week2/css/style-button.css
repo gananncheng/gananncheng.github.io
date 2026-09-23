@@ -1,0 +1,78 @@
+button.request-now {
+    background-color: rgba(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 8px;
+    font-size: 14px;
+}
+
+button.sign-up {
+    background-color: rgba(106, 160, 98);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button.add-to-cart {
+    background-color: rgba(245, 218, 103);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 60px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button.get-started {
+    background-color: rgba(110, 85, 168);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button.download {
+    background-color: rgba(255, 255, 255);
+    color: rgba(112, 116, 119);
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button.apply-on-company-website {
+    background-color: rgba(59, 100, 182);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 13px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button.save {
+    background-color: rgba(255, 255, 255);
+    color: rgba(61, 99, 171);
+    border: 2px solid rgba(61, 99, 171);
+    border-radius: 30px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
