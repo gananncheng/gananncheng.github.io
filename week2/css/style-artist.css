@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: rgb(216, 162, 162);
+}
+
+h2 {
+    color: rgb(54, 49, 153);
+    font-size: 1.5em;
+    margin-top: 1em;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(255, 0, 0);
+    color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
