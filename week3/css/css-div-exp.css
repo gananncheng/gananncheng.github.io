@@ -1,0 +1,15 @@
+.big-box {
+    display: flex;
+}
+
+.y {
+    background-color: yellow;
+}
+
+.p {
+    background-color: pink;
+}
+
+.g {
+    background-color: green;
+}

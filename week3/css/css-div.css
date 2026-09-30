@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Isometra&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Ma+Shan+Zheng&display=swap');
+
+p {
+    font-family: "Isometra", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    background-color: #d23131;
+    text-align: justify;
+    background-image: url('/week3/images/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: "Libre Caslon Condensed", serif;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    border-bottom: 2px dashed #000000;
+    border-top: 2px solid #000000;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    font-family: "Edu QLD Hand", cursive;
+    text-align: left;
+
+}
+
+h3 {
+    font-family: "Ma Shan Zheng", cursive;
+    text-align: justify;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #49fa3c;
+}
