@@ -1,0 +1,64 @@
+.big-box {
+    display: flex;
+    gap: 20px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.box {
+
+    padding: 10px;
+    flex: 1;
+
+}
+
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-pink {
+
+    background-color: pink;
+    flex: 5;
+}
+
+.bg-green {
+
+    background-color: green;
+}
+
+
+@media (max-width: 600px) {
+
+    .bg-yellow {
+        background-color: rgb(233, 173, 114);
+    }
+
+    .bg-pink {
+        background-color: rgb(245, 128, 245);
+    }
+
+    .bg-green {
+        background-color: rgb(154, 230, 154);
+    }
+
+    .big-box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .bg-pink {
+        display: none;
+    }
+
+    .bg-green {
+        display: none;
+    }
+
+    .bg-yellow {
+        display: none;
+
+    }
+}
