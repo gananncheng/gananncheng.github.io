@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.request {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Hamburger {
+    display: none;
+}
+
+.banner {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.banner-text,
+.banner-image {
+
+    flex: 1;
+}
+
+
+
+button {
+
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+
+
+.logos {
+    display: flex;
+    gap: 40px;
+
+}
+
+.logos img {
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+h2 {
+    background-color: #B9FF66;
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.Team {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.team-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-info div {
+    width: 30%;
+    align-items: center;
+}
+
+.team-info img {
+    width: 100%;
+
+}
+
+.all {
+    float: right;
+}
+
+
+@media (max-width: 676px) {
+    .menu {
+        display: none;
+    }
+
+    .Hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .logos div {
+        width: 50%;
+        text-align: center;
+    }
+
+    .logos img {
+        width: 80%;
+    }
+
+    .all {
+        float: none;
+        display: block;
+        margin: auto;
+        padding: 10px 135px;
+        width: 100%;
+    }
+
+    .Team {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-info div {
+        width: 90%;
+    }
+}
