@@ -5,8 +5,12 @@
 }
 
 body {
-    margin: 0px;
+    margin: auto;
     font-family: "Manrope", sans-serif;
+}
+
+.logos2 {
+    display: none;
 }
 
 .İletişim {
@@ -14,17 +18,24 @@ body {
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
+    width: fit-content;
+    flex-shrink: 0;
 }
 
-.menu {
-    display: flex;
-    padding: 10px;
-}
+
 
 .banner {
     min-height: 600px;
     background-image: url('../images/background.jpg');
     background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    align-items: center;
+    padding: 20px 30px;
 }
 
 .hamburger {
@@ -36,6 +47,8 @@ body {
     gap: 30px;
     align-items: center;
     font-size: small;
+    display: flex;
+    padding: 10px;
 }
 
 .banner-content {
@@ -84,6 +97,146 @@ body {
 
 }
 
+.page3 {
+    background-color: #F84646;
+    color: white;
+
+}
+
+.text1 {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.test {
+    margin-bottom: 2px;
+}
+
+
+
+.below {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    text-align: center left;
+    padding-bottom: 30px;
+}
+
+.page4 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.text-box h2 {
+    font-size: 36px;
+    color: #2e2e2e;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.text-box p {
+    font-size: 13px;
+    color: #888888;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+
+.Keşfet {
+    background-color: #F84646;
+    color: white;
+    padding: 10px 45px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+
+.page4below {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 80px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+
+.page5text {
+    text-align: center;
+}
+
+.page5text h2 {
+    padding-top: 40px;
+    font-size: 36px;
+}
+
+.logos1 {
+    display: flex;
+    justify-content: center;
+}
+
+.page5 {
+    background-color: #f4f5f7;
+}
+
+.page6logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.page6text {
+    text-align: center;
+
+}
+
+.page6text h2 {
+    font-size: 35px;
+
+}
+
+.bize {
+    margin-bottom: 120px;
+    background-color: #F84646;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: white;
+}
+
+
+.lastpage {
+    background-color: #f84646;
+    color: white;
+    padding: 30px 7%;
+    font-size: 12px;
+}
+
+.lastpage-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastpage-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 @media (max-width: 1024px) {
     .banner {
         background-position: center 60%;
@@ -96,11 +249,16 @@ body {
     .menu {
         justify-content: right;
     }
+
+    .content-item {
+        width: 50%;
+
+    }
 }
 
 
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     .banner {
         background-position: center 80%;
     }
@@ -111,17 +269,117 @@ body {
         justify-content: center;
     }
 
+    .navbar {
+        justify-content: space-between;
+        padding: 20px;
+    }
+
     .İletişim {
         display: block;
+        width: fit-content;
+        margin-left: auto;
     }
 
     .menu {
         display: none;
-
-
     }
 
     .hamburger {
         display: block;
     }
+
+    .content-item {
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+
+    .below {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-box h2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text-box p {
+        text-align: center;
+    }
+
+    .Keşfet {
+        padding: 15px 225px;
+        margin-bottom: 60px;
+    }
+
+    .page4 {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .page4below {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+
+
+    .caret {
+        transform: rotate(90deg);
+    }
+
+    .image-box {
+        width: 90%;
+    }
+
+    .lastpage-content {
+        flex-direction: column;
+    }
+
+    .lastpage-text {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .social {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .logos1 {
+        display: none;
+    }
+
+    .logos2 {
+        display: block;
+        justify-content: center;
+        display: flex;
+        margin-top: 55px;
+    }
+
+
+
+
 }
