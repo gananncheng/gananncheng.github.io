@@ -82,10 +82,15 @@ body {
     text-align: center;
 }
 
-.simple p {
+.simple {
     font-family: "Lora", serif;
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 50px;
+    font-style: italic;
+}
+
+.mobile-break {
+    display: none;
 }
 
 .popular h3 {
@@ -95,6 +100,161 @@ body {
 
 .popular {
     font-family: "Lora", serif;
+}
+
+.below {
+    padding: 80px 20px;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.below .food {
+    flex: 1;
+}
+
+.below .dessert .img {
+    background-image: url(../images/dessert.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+}
+
+.below .specials {
+    flex: 2;
+}
+
+.below .specials .img {
+    background-image: url(../images/chefspecials.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.below .seasonal .img {
+    background-image: url(../images/seasonal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+button {
+    display: inline-block;
+    padding: 8px 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.page3 {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.food h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+.below .specials h3 {
+    font-size: 40px;
+}
+
+.page3 {
+    width: 100%;
+    position: relative;
+}
+
+
+.page3-img {
+    width: 100%;
+    height: 365px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../images/bg2.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.text3 {
+    width: 300px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    position: absolute;
+}
+
+.text3 h4 {
+    font-size: 32px;
+    margin-bottom: 22px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.text3 p {
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: "Lora", serif;
+}
+
+.page4 {
+    color: white;
+}
+
+.logoo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.text4 {
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
+.logooo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 120px;
+    padding-top: 20px;
+}
+
+.logooo img {
+    width: 35px;
+    height: auto;
+}
+
+.page4-img {
+    width: 100%;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)),
+        url(../images/bg3.png);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 1024px) {
@@ -119,8 +279,81 @@ body {
         padding-left: 150px;
         padding-bottom: 80px;
     }
+
+    .below {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 30px 15px;
+    }
+
+    .below .food {
+        width: 100%;
+        flex: none;
+    }
+
+    .below .food .img {
+        width: 100%;
+        height: 300px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .below .specials {
+        order: 1;
+    }
+
+    .below .dessert {
+        order: 2;
+    }
+
+    .below .seasonal {
+        order: 3;
+    }
+
+    .below .specials .img {
+        height: 300px;
+        ;
+
+        width: 100%;
+    }
+
+    .below .specials h3 {
+        font-size: 25px;
+    }
+
 }
 
 @media (max-width: 640px) {
-    .text {}
+    .simple p {
+        width: 150px;
+        margin: 0 auto;
+        padding-top: 30px;
+        font-size: 30px;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .mobile-break {
+        display: inline;
+    }
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page3-img {
+        height: 220px;
+    }
+
+    .text3 {
+        position: static;
+        width: 100%;
+        padding: 20px 15px;
+        text-align: center;
+    }
 }
