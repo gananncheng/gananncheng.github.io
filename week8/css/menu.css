@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+.text {
+    background-image: url(../images/bgg1.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 300px;
+}
+
+.text h5 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.text p {
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 40px;
+    height: 600px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 25px;
+}
+
+.butter {
+    background-image: url(../images/lobster.png);
+    width: 30%;
+    display: flex;
+    align-items: end;
+    flex: 1;
+    background-size: cover;
+    text-align: right;
+    justi
+}
+
+.chocolate {
+    background-image: url(../images/chocolate.png);
+    width: 30%;
+    align-items: end;
+    display: flex;
+    flex: 1;
+}
+
+.duck {
+    background-image: url(../images/duck.png);
+    width: 30%;
+    align-items: end;
+    display: flex;
+    flex: 1;
+}
+
+.title {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    background: linear-gradient(270deg, rgb(158, 154, 154), transparent);
+}
+
+@media (max-width: 1024px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .big-box {
+        flex-direction: column-reverse;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .simple p {
+        width: 150px;
+        margin: 0 auto;
+        padding-top: 30px;
+        font-size: 30px;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .mobile-break {
+        display: inline;
+    }
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page3-img {
+        height: 220px;
+    }
+
+    .text3 {
+        position: static;
+        width: 100%;
+        padding: 20px 15px;
+        text-align: center;
+    }
+}
