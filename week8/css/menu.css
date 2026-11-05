@@ -7,6 +7,7 @@
 
 body {
     background-color: black;
+    margin: 0;
 }
 
 .text {
@@ -19,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    height: 300px;
+    height: 400px;
 }
 
 .text h5 {
@@ -53,7 +54,7 @@ body {
     flex: 1;
     background-size: cover;
     text-align: right;
-    justi
+    justify-content: flex-end;
 }
 
 .chocolate {
@@ -62,6 +63,8 @@ body {
     align-items: end;
     display: flex;
     flex: 1;
+    justify-content: flex-end;
+    background-size: cover;
 }
 
 .duck {
@@ -70,6 +73,8 @@ body {
     align-items: end;
     display: flex;
     flex: 1;
+    justify-content: flex-end;
+    background-size: cover;
 }
 
 .title {
@@ -77,6 +82,158 @@ body {
     font-family: "Bebas Neue", sans-serif;
     background: linear-gradient(270deg, rgb(158, 154, 154), transparent);
 }
+
+.main-course {
+    background-color: white;
+    display: flex;
+    gap: 100px;
+}
+
+.main-course-text {
+    margin-right: 80px;
+}
+
+.main-course-text h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    padding-right: 20px;
+}
+
+.main-course-text h5 {
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.dish {
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.dish-text span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.dish-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dish p {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 5px 0 0;
+}
+
+.dessert {
+    background-image: url(../images/biscuit.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+}
+
+.dessert h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+    margin: 0;
+
+}
+
+.food {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    gap: 25px;
+    background-color: white;
+    justify-content: center;
+}
+
+.food1 img,
+.food2 img,
+.food3 img,
+.food4 img {
+    width: 100%;
+    height: 350px;
+}
+
+.food1,
+.food3 {
+    margin-top: 70px;
+}
+
+.food2,
+.food4 {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.food-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.food-text h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.food-text p {
+    font-size: 12px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.croctails {
+    background-image: url(../images/croctails.png);
+    background-position: center;
+    height: 1000px;
+    color: white;
+    padding-left: 250px;
+    margin: 0;
+}
+
+.croctails h3 {
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    font-size: 80px;
+    padding-top: 200px;
+}
+
+.croctails p {
+    font-family: "Lora", serif;
+    padding-top: 100px;
+}
+
+.croctails span {
+    border-bottom: 1px solid white;
+    padding-bottom: 70px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.about button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 40px;
+}
+
 
 @media (max-width: 1024px) {
     .menu {
@@ -95,6 +252,113 @@ body {
     .image {
         width: 100%;
         height: 100%;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 30px 50px;
+        gap: 40px;
+        padding-top: 65px;
+
+    }
+
+    .butter,
+    .chocolate,
+    .duck {
+        width: 100%;
+        height: 750px;
+        flex: none;
+        background-position: center;
+    }
+
+    .main-course {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-course-img {
+        width: 100%;
+    }
+
+    .main-course-img img {
+        width: 100%;
+    }
+
+    .main-course-text {
+        padding: 0 40px;
+        margin-left: 50px;
+    }
+
+    .food {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 80px 65px;
+        gap: 35px;
+    }
+
+    .food1,
+    .food2,
+    .food3,
+    .food4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .food1 img,
+    .food2 img,
+    .food3 img,
+    .food4 img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+
+    }
+
+    .food1,
+    .food3 {
+        flex-direction: column-reverse;
+    }
+
+    .food-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .food-text h3 {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .food-text p {
+        font-size: 11px;
+        margin: 5px 0;
+    }
+
+    .croctails {
+        height: auto;
+        min-height: 600px;
+        padding-left: 100px;
+    }
+
+    .croctails h3 {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+
+    .croctails p {
+        padding-top: 100px;
+    }
+
+    .text {
+        padding-left: 0px;
+        padding-bottom: 0px;
     }
 }
 
@@ -126,5 +390,46 @@ body {
         width: 100%;
         padding: 20px 15px;
         text-align: center;
+    }
+
+    .main-course-img img {
+        display: none;
+    }
+
+    .butter,
+    .chocolate,
+    .duck {
+        justify-content: center;
+    }
+
+    .menu-items {
+        padding: 60px 0;
+    }
+
+    .main-course-text h3 {
+        text-align: center;
+    }
+
+    .food1,
+    .food3 {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .food2,
+    .food4 {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+    }
+
+    .food {
+        padding: 2px 0px;
+        padding: 40px 20px;
+    }
+
+    .main-course-text h3 {
+        margin-top: 0px;
     }
 }
