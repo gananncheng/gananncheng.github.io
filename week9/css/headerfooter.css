@@ -1,0 +1,187 @@
+.header {
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.hamburger {
+    display: none;
+    max-width: 718px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    font-size: 10px;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    padding-right: 1px;
+}
+
+.logo {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.text h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.footer {
+    color: white;
+}
+
+.logoo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.text4 {
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
+.logooo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 120px;
+    padding-top: 20px;
+}
+
+.logooo img {
+    width: 35px;
+    height: auto;
+}
+
+.page4-img {
+    width: 100%;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)),
+        url(../images/bg3.png);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .big-box {
+        flex-direction: column-reverse;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .text {
+        padding-left: 150px;
+        padding-bottom: 80px;
+    }
+
+    .below {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 30px 15px;
+    }
+
+    .below .food {
+        width: 100%;
+        flex: none;
+    }
+
+    .below .food .img {
+        width: 100%;
+        height: 300px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .below .specials {
+        order: 1;
+    }
+
+    .below .dessert {
+        order: 2;
+    }
+
+    .below .seasonal {
+        order: 3;
+    }
+
+    .below .specials .img {
+        height: 300px;
+        ;
+
+        width: 100%;
+    }
+
+    .below .specials h3 {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .simple p {
+        width: 150px;
+        margin: 0 auto;
+        padding-top: 30px;
+        font-size: 30px;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .mobile-break {
+        display: inline;
+    }
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page3-img {
+        height: 220px;
+    }
+
+    .text3 {
+        position: static;
+        width: 100%;
+        padding: 20px 15px;
+        text-align: center;
+    }
+}

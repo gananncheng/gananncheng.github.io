@@ -11,6 +11,7 @@ body {
 }
 
 .text {
+    background: linear-gradient(270deg, rgb(158, 154, 154), transparent);
     background-image: url(../images/bgg1.png);
     background-size: cover;
     background-position: center;
