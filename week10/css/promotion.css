@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.big-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-box .img {
+    background-image: url(../images/promotion.bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    min-height: 800px;
+}
+
+.text-contentt {
+    flex: 1;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding-left: 120px;
+    width: 40%;
+}
+
+.text-contentt h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 96px;
+    margin: 0;
+    padding-top: 30px;
+    max-width: 620px;
+}
+
+.text-contentt p {
+    font-family: "Lora", serif;
+    font-size: 19px;
+}
+
+.text-contentt button {
+    border: 1px solid #A1A1A1;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.seasonalspecial {
+    background-color: white;
+    color: black;
+}
+
+.text-seasonal {
+    padding-top: 70px;
+    font-size: 46px;
+    font-family: "Lora", serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text-seasonal h3 {
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.text-seasonal p {
+    font-size: 19px;
+    margin: 0;
+    padding-top: 21px;
+}
+
+.text-seasonal span {
+    font-style: italic;
+}
+
+.beef .img {
+    background-image: url(../images/beef.png);
+    background-position: center;
+    background-size: contain;
+    min-height: 494px;
+    border-radius: 180px;
+    background-repeat: no-repeat;
+}
+
+.ribeye .img {
+    background-image: url(../images/Ribeye.Steak.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 494px;
+    border-radius: 180px;
+
+}
+
+.lychee .img {
+    background-image: url(../images/Pink.Lychee.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 494px;
+    border-radius: 180px;
+}
+
+.big-boxx {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.beef {
+    flex: 1;
+}
+
+.ribeye {
+    flex: 1;
+}
+
+.lychee {
+    flex: 1;
+}
