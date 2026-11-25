@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+}
+
+.footer {
+    color: white;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+}
+
+.image {
+    flex: 1;
+}
+
+.text span {
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.text h1 {
+    font-size: 95px;
+}
+
+.text p {
+    font-size: 19px;
+    font-family: "Lora", serif;
+}

@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.big-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-box .img {
+    background-image: url(../images/promotion.bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    min-height: 800px;
+}
+
+.text-contentt {
+    flex: 1;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding-left: 120px;
+    width: 40%;
+}
+
+.text-contentt h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 96px;
+    margin: 0;
+    padding-top: 30px;
+    max-width: 620px;
+}
+
+.text-contentt p {
+    font-family: "Lora", serif;
+    font-size: 19px;
+}
+
+.text-contentt button {
+    border: 1px solid #A1A1A1;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.seasonalspecial {
+    background-color: white;
+    color: black;
+}
+
+.text-seasonal {
+    padding-top: 70px;
+    font-size: 46px;
+    font-family: "Lora", serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text-seasonal h3 {
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    padding-top: 50px;
+    font-weight: normal;
+}
+
+.text-seasonal p {
+    font-size: 19px;
+    margin: 0;
+    padding-top: 21px;
+}
+
+.text-seasonal span {
+    font-style: italic;
+}
+
+.beef .img {
+    background-image: url(../images/beef.png);
+    background-position: center;
+    background-size: contain;
+    min-height: 494px;
+    border-radius: 180px;
+    background-repeat: no-repeat;
+}
+
+.ribeye .img {
+    background-image: url(../images/ribeye.png);
+    background-position: center;
+    background-size: contain;
+    min-height: 494px;
+    border-radius: 180px;
+    background-repeat: no-repeat;
+
+}
+
+.lychee .img {
+    background-image: url(../images/lychee.png);
+    background-position: center;
+    background-size: contain;
+    min-height: 494px;
+    border-radius: 180px;
+    background-repeat: no-repeat;
+}
+
+.big-boxx {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.beef {
+    flex: 1;
+}
+
+.ribeye {
+    flex: 1;
+}
+
+.lychee {
+    flex: 1;
+}
+
+.big-boxx .text {
+    text-align: center;
+}
+
+.beef .text h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.ribeye .text h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.lychee .text h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.beef .text p {
+    font-family: "Lora", serif;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.ribeye .text p {
+    font-family: "Lora", serif;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.lychee .text p {
+    font-family: "Lora", serif;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.text button {
+    border: 1px solid #A1A1A1;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    margin-top: 14px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.big-boxx {
+    padding-bottom: 55px;
+}
+
+.text-romantic {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 180px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/promotion.bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-romantic h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.text-romantic p {
+    font-family: "Lora", serif;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.limited1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 200px;
+    top: 200px;
+}
+
+.limited1 p {
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    position: relative;
+    right: 90px;
+}
+
+.limited2 {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.limited2 p {
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 120px;
+    bottom: 100px;
+}
+
+.limited3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 500px;
+    bottom: 200px;
+}
+
+.limited3 p {
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    position: relative;
+    right: 280px;
+}
+
+.dessert {
+    background-color: white;
+    color: black;
+}
+
+.reserve {
+    text-align: center;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+}
+
+.reserve-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.reserve-text span {
+    width: 30px;
+    border-top: 1px solid black;
+}
+
+.reserve button {
+    background-color: white;
+    border: 1px solid #A1A1A1;
+    padding: 12px 40px;
+    margin-bottom: 100px;
+}
+
+.text-membership {
+    font-family: "Lora", serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 180px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/promotion.bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-membership h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
+.spend {
+    background-color: white;
+    color: black;
+}
+
+.classic .text-spend {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/classic.jpg);
+    width: 349px;
+    height: 438px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.spend-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+}
+
+.prestige .text-spend {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/prestige.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 349px;
+    height: 438px;
+    ;
+}
+
+.elite .text-spend {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/elite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 349px;
+    height: 438px;
+}
+
+.smalltext img {
+    width: 15px;
+}
+
+
+.smalltext {
+    font-size: 19px;
+    align-items: center;
+    display: flex;
+    font-family: "Lora", serif;
+    padding: 0px 30px;
+    padding-top: 35px;
+    gap: 10px;
+}
+
+.prestige .smalltext {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.text-spend span {
+    text-align: center;
+    font-size: 15px;
+}
+
+.text-spend {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    padding: 30px 0px;
+    position: relative;
+}
+
+.text-spend h5 {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.text-spend button {
+    color: white;
+    width: 160px;
+    height: 40px;
+    padding: 0;
+
+    background-color: transparent;
+    border: 1px solid #A1A1A1;
+
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.menu a {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .big-box {
+        flex-direction: column;
+        display: block;
+    }
+
+    .text-contentt {
+        padding: 100px 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
+
+    .text-contentt p {
+        text-align: left;
+        padding-left: 130px;
+    }
+
+    .text-contentt span {
+        padding-right: 570px;
+    }
+
+    .text-contentt button {
+        margin-right: 450px;
+    }
+
+    .text-contentt div {
+        margin-right: 440px;
+    }
+
+    .big-boxx {
+        flex-direction: column;
+    }
+
+    .big-boxx .text {
+        text-align: center;
+        padding-right: 135px;
+    }
+
+    .dessert {
+        padding: 30px 0;
+    }
+
+    .limited1,
+    .limited2,
+    .limited3 {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        left: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .limited1 img,
+    .limited2 img,
+    .limited3 img {
+        width: 60%;
+        height: auto;
+    }
+
+    .limited1 p,
+    .limited2 p,
+    .limited3 p {
+        position: static;
+        margin: 12px 0 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .limited2 {
+        flex-direction: column-reverse;
+    }
+
+    .reserve {
+        margin-top: 20px;
+    }
+
+    .reserve-text {
+        gap: 8px;
+        font-size: 10px;
+    }
+
+    .reserve button {
+        padding: 6px 20px;
+        margin-bottom: 20px;
+    }
+
+    .spend-box {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .classic {
+        width: 50%;
+        padding-top: 80px;
+    }
+
+    .prestige {
+        width: 50%;
+        padding-top: 80px;
+    }
+
+    .elite {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .text-contentt {
+        width: 100%;
+        padding: 150px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text-contentt h3 {
+        font-size: 55px;
+        padding-top: 20px;
+        line-height: 1;
+    }
+
+    .text-contentt p {
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+
+    .text-contentt span {
+        padding-right: 0;
+    }
+
+    .text-contentt div {
+        margin-right: 0;
+        width: auto;
+    }
+
+    .text-contentt button {
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+    .spend-box {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 0px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .classic,
+    .prestige,
+    .elite {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .classic .text-spend,
+    .prestige .text-spend,
+    .elite .text-spend {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        height: 480px;
+    }
+
+    .prestige {
+        padding-top: 10px;
+    }
+
+    .elite {
+        padding-top: 10px;
+    }
+
+}
