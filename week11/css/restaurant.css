@@ -2,6 +2,11 @@
 
 body {
     background-color: black;
+    margin: 0;
+}
+
+.menu {
+    padding-left: 500px;
 }
 
 .footer {
@@ -9,24 +14,461 @@ body {
 }
 
 .text {
-    flex: 1;
-    text-align: center;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 50%;
+    padding-top: 178px;
 }
 
 .image {
-    flex: 1;
+    width: 50%;
+
+}
+
+.image img {
+    object-position: cover;
 }
 
 .text span {
     font-size: 15px;
     font-family: "Work Sans", sans-serif;
+    font-weight: normal;
 }
 
 .text h1 {
     font-size: 95px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 30px;
+    width: 491px;
 }
 
 .text p {
     font-size: 19px;
     font-family: "Lora", serif;
+    padding-top: 10px;
+    width: 556px;
+}
+
+.image img {
+    min-height: 700px;
+    min-width: 750px;
+}
+
+a {
+    color: white;
+}
+
+.detail {
+    background-color: white;
+}
+
+.text-elegance h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 95px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.below {
+    padding: 55px 160px;
+    gap: 110px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.below .food {
+    flex: 1;
+}
+
+.below .elegance1 .img {
+    background-image: url(../images/elegance1.png);
+    background-size: cover;
+    background-position: center;
+    height: 365px;
+    width: 290px;
+    margin: 0;
+}
+
+.below .elegance2 {
+    flex: 1;
+}
+
+.below .elegance2 .img {
+    background-image: url(../images/elegance2.png);
+    background-size: cover;
+    background-position: center;
+    height: 525px;
+    width: 415px;
+}
+
+.below .elegance3 .img {
+    background-image: url(../images/elegance3.png);
+    background-size: cover;
+    background-position: center;
+    height: 365px;
+    width: 290px;
+}
+
+.gallery {
+    background-color: white;
+}
+
+.text-gallery {
+    text-align: center;
+}
+
+.text-gallery h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 95px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 150px;
+}
+
+.text-gallery p {
+    font-size: 19px;
+    font-family: "Lora", serif;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.big-box-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gallery-item {
+    width: 25%;
+    height: 350px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comment {
+    background-color: white;
+}
+
+.abouttext h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 95px;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.cardd {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding: 0px 50px;
+    padding-top: 32px;
+    padding-bottom: 100px;
+}
+
+.review-card {
+    background-color: black;
+    color: white;
+    padding: 40px 25px;
+    width: 365px;
+    height: 260px;
+}
+
+.review-card h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.review-card p {
+    font-size: 19px;
+    font-family: "Lora", serif;
+    line-height: 33.3px;
+}
+
+.fivestar {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .banner1 {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+        padding: 20px 40px;
+        background-color: black;
+        z-index: 10;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .logo h3 {
+        color: white;
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .big-box {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        background-image: url(../images/our-bg1.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .big-box::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    .big-box .image {
+        display: none;
+    }
+
+    .big-box .text {
+        position: relative;
+        z-index: 1;
+        width: 80%;
+        margin: 0;
+        padding: 0px 80px;
+        color: white;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .below {
+        flex-direction: column;
+        padding-left: 0;
+        padding: 0px 180px;
+    }
+
+    .below .elegance1 {
+        min-width: 765px;
+        height: 711px;
+    }
+
+    .below .elegance1 .img {
+        width: 765px;
+        height: 711px;
+    }
+
+    .below .elegance2 .img {
+        width: 765px;
+        height: 711px;
+    }
+
+    .below .elegance3 .img {
+        width: 765px;
+        height: 711px;
+    }
+
+    .big-box-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 80px;
+        box-sizing: border-box;
+    }
+
+    .gallery-item {
+        width: 50%;
+        height: 350px;
+
+    }
+
+    .cardd {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .review-card {
+        width: 802px;
+        height: 491px;
+    }
+
+    .review-card p {
+        width: 566px;
+        margin: 0 auto;
+        line-height: 33.3px;
+        padding-top: 120px;
+    }
+
+    .fivestar {
+        padding-top: 120px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .fivestar img {
+        width: 40px;
+    }
+
+    .text-elegance h3 {
+        padding-bottom: 80px;
+    }
+
+    .text h1 {
+        font-size: 95px;
+        width: 491px;
+    }
+
+    .text p {
+        width: 556px;
+    }
+
+    .abouttext h3 {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .below {
+        padding: 0 70px;
+        gap: 70px;
+    }
+
+    .below .elegance1,
+    .below .elegance2,
+    .below .elegance3 {
+        min-width: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .below .elegance1 .img,
+    .below .elegance3 .img {
+        width: 100%;
+        height: 530px;
+    }
+
+    .below .elegance2 .img {
+        width: 100%;
+        height: 638px;
+    }
+
+    .text-gallery h3 {
+        padding-top: 100px;
+    }
+
+    .big-box-gallery {
+        padding: 0px 0px;
+    }
+
+    .gallery-item {
+        width: 100%;
+        height: 610px;
+    }
+
+    .cardd {
+        padding: 0 20px;
+        gap: 60px;
+        padding-bottom: 80px;
+    }
+
+    .review-card {
+        width: 100%;
+        max-width: 484px;
+        max-height: 390px;
+        box-sizing: border-box;
+        padding: 30px 20px;
+    }
+
+    .review-card p {
+        width: 100%;
+        margin: 0;
+        padding-top: 30px;
+        line-height: 1.5;
+    }
+
+    .fivestar {
+        padding-top: 70px;
+        gap: 15px;
+    }
+
+    .fivestar img {
+        width: 30px;
+    }
+
+    .abouttext h3 {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .text-elegance h3 {
+        font-size: 85px;
+        width: 400px;
+        margin: 0px auto;
+    }
+
+    .text h1 {
+        font-size: 84px;
+        width: 398px;
+    }
+
+    .text p {
+        font-size: 19px;
+        width: 413px;
+    }
+
+    .text span {
+        font-size: 15px;
+        letter-spacing: 1.4px;
+        line-height: 18px;
+    }
+
+    .text-gallery h3 {
+        padding-top: 50px;
+    }
 }

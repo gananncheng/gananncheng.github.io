@@ -1,4 +1,4 @@
-const toggleButton = document.getElementById("hamburger");
+const toggleButton = document.getElementById("mobile-toggle");
 const menu = document.getElementById("mobile-menu");
 
 toggleButton.addEventListener("click", () => {

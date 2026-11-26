@@ -9,6 +9,17 @@ body {
     margin: 0;
 }
 
+.header {
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 10px;
+}
+
 .header-text {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/cart1.png);
     padding-top: 500px;
@@ -24,6 +35,16 @@ body {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 200px;
+}
+
+.text h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.footer {
+    color: white;
 }
 
 .header-text .cart {
@@ -674,12 +695,76 @@ a {
         display: none;
     }
 
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .big-box {
+        flex-direction: column-reverse;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .text {
+        padding-left: 150px;
+        padding-bottom: 80px;
+    }
+
+    .below {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 30px 15px;
+    }
+
+    .below .food {
+        width: 100%;
+        flex: none;
+    }
+
+    .below .food .img {
+        width: 100%;
+        height: 300px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .below .specials {
+        order: 1;
+    }
+
+    .below .dessert {
+        order: 2;
+    }
+
+    .below .seasonal {
+        order: 3;
+    }
+
+    .below .specials .img {
+        height: 300px;
+        ;
+
+        width: 100%;
+    }
+
+    .below .specials h3 {
+        font-size: 25px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
-
-
-
     .text-content {
         display: flex;
         flex-direction: column;
@@ -687,9 +772,6 @@ a {
         padding: 50px 6%;
         gap: 25px;
     }
-
-
-
 
     .big-boxx {
         flex-direction: column;
@@ -710,8 +792,6 @@ a {
     .content-text {
         padding: 20px;
     }
-
-
 
     .signatures .box {
         flex-direction: row;
@@ -827,10 +907,37 @@ a {
         padding: 60px 20px;
     }
 
+    .simple p {
+        width: 150px;
+        margin: 0 auto;
+        padding-top: 30px;
+        font-size: 30px;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .mobile-break {
+        display: inline;
+    }
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page3-img {
+        height: 220px;
+    }
+
+    .text3 {
+        position: static;
+        width: 100%;
+        padding: 20px 15px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 640px) {
-
     .signatures .big-boxx {
         display: flex;
         flex-direction: column;
@@ -867,7 +974,6 @@ a {
         padding: 0 15px 25px;
     }
 
-
     .signatures .box>div:first-child {
         flex: 1.1 1 0;
         width: 0;
@@ -886,7 +992,6 @@ a {
         min-width: 0;
         height: 33px;
     }
-
 
     .signatures .box .add,
     .signatures .box .view {
